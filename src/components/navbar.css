@@ -1,0 +1,15 @@
+.navbar {
+    background-color: var(--navbar);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.navbar .bx-menu,
+.navbar .nav-icons .bx {
+    font-size: 25px;
+    cursor: pointer;
+}
